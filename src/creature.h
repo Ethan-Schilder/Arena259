@@ -16,7 +16,7 @@ public:
         health = h;
         damage = d;
     }
-// add simple randomness 
+
     void attack(Creature &other)
     {
         other.health -= damage;
