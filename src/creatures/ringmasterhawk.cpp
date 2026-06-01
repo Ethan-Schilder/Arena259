@@ -1,5 +1,5 @@
 #include "ringmasterhawk.h"
-#include "../arenarand.h"
+#include "../rng.h"
 #include <iostream>
 
 RingmasterHawk::RingmasterHawk()
