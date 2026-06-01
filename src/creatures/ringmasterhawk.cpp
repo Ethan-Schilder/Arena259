@@ -1,7 +1,11 @@
 #include "ringmasterhawk.h"
-#include "../rng.h"
+#include "../arenarand.h"
+#include <iostream>
 
-RingmasterHawk::RingmasterHawk() : Creature("Ringmaster Hawk", 80, 20){}
+RingmasterHawk::RingmasterHawk()
+: Creature("Ringmaster Hawk", 95, 15, 10)
+{
+}
 
 void RingmasterHawk::specialMove(Creature& other) {
     int randomDamage = RNG::randomValue(7, 45); // Random damage between 7 and 45
